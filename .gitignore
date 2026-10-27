@@ -1,0 +1,14 @@
+/target
+/project
+/tasks
+*.mp4
+*.mov
+
+# Film projects and scratch projects: user data, large media
+/films
+/test
+
+# Machine-local
+.DS_Store
+.claude/settings.local.json
+.omp/
