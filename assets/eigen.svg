@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Eigen</title>
+  <g fill="#000">
+    <g id="wings">
+      <!-- upper wing: broad, swept up and out -->
+      <path d="M268 246 C 300 170, 370 104, 438 112 C 478 117, 472 184, 430 222 C 384 262, 318 270, 268 262 Z"/>
+      <!-- lower wing: smaller, rounded, trailing down -->
+      <path d="M268 280 C 314 282, 370 300, 382 344 C 394 392, 342 414, 306 380 C 284 358, 272 322, 268 290 Z"/>
+    </g>
+    <use href="#wings" transform="translate(512 0) scale(-1 1)"/>
+    <!-- body -->
+    <rect x="249" y="214" width="14" height="150" rx="7"/>
+  </g>
+  <!-- antennae -->
+  <g fill="none" stroke="#000" stroke-width="6" stroke-linecap="round">
+    <path d="M252 216 C 244 186, 232 168, 214 156"/>
+    <path d="M260 216 C 268 186, 280 168, 298 156"/>
+  </g>
+</svg>
