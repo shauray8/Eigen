@@ -1,0 +1,19 @@
+[package]
+name = "ed-render"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+ed-core.workspace = true
+ed-text.workspace = true
+ed-media.workspace = true
+image.workspace = true
+anyhow.workspace = true
+bytemuck.workspace = true
+glam.workspace = true
+naga.workspace = true
+wgpu.workspace = true
+png.workspace = true
+gltf.workspace = true
+
+[dev-dependencies]
