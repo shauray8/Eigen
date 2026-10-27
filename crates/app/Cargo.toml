@@ -1,0 +1,26 @@
+[package]
+name = "ed-app"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "eigen"
+path = "src/main.rs"
+
+[dependencies]
+ed-core.workspace = true
+ed-render.workspace = true
+ed-mcp.workspace = true
+ed-audio.workspace = true
+ed-media.workspace = true
+rfd.workspace = true
+anyhow.workspace = true
+eframe.workspace = true
+egui_dock.workspace = true
+glam.workspace = true
+parking_lot.workspace = true
+portable-pty.workspace = true
+serde_json.workspace = true
+vt100.workspace = true
+wgpu.workspace = true
+muda = "0.21.2"
