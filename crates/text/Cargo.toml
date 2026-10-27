@@ -1,0 +1,9 @@
+[package]
+name = "ed-text"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+fontdb.workspace = true
+lyon_tessellation.workspace = true
+rustybuzz.workspace = true
